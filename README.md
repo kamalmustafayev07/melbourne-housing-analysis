@@ -154,20 +154,34 @@ git clone https://github.com/kamalmustafayev07/melbourne-housing-analysis.git
 cd melbourne-housing-analysis
 ```
 
-### 2. Install dependencies using Poetry  
-Ensure Poetry is installed on your system (see: https://python-poetry.org/docs/#installation).  
+### 2. Install dependencies  
+You can install dependencies using either **pip** or **Poetry**.
+
+#### Option A — Using pip (recommended for simplicity)
+Make sure you have Python 3.11 or later installed.  
 Then run:  
 ```bash
-poetry install --no-root
+pip install -r requirements.txt
 ```
 
-### 3. Prepare the dataset  
-Place the **Melbourne Housing Dataset** (`melbourne_housing.csv`) into the `data/` directory.  
-If your filename differs, update the path in the notebook.
+#### Option B — Using Poetry (if you have it installed)
+If you prefer Poetry, install dependencies using:  
+```bash
+poetry install --no-root
+poetry shell
+```
 
-### 4. Run the analysis notebook  
-Start Jupyter Notebook:  
+### 3. Run the analysis notebooks  
+The dataset (`melbourne_housing.csv`) is already included in the `data/` directory.  
+To reproduce the analysis, open and execute the Jupyter notebooks in the following order:
+
+1. `01_data_cleaning.ipynb` – performs data loading, inspection, and preprocessing  
+2. `02_exploratory_analysis.ipynb` – conducts visualizations and feature exploration  
+3. `03_insights_and_findings.ipynb` – summarizes key results and conclusions  
+
+Start Jupyter Notebook:
 ```bash
 jupyter notebook
 ```
-Open `notebooks/Melbourne_EDA.ipynb` and execute all cells sequentially to reproduce the cleaning, exploration, and visualization process.
+Then open each notebook in sequence and run all cells.
+
