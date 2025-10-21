@@ -158,8 +158,7 @@ cd melbourne-housing-analysis
 Ensure Poetry is installed on your system (see: https://python-poetry.org/docs/#installation).  
 Then run:  
 ```bash
-poetry install
-poetry shell
+poetry install --no-root
 ```
 
 ### 3. Prepare the dataset  
