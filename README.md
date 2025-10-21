@@ -9,17 +9,6 @@ The findings provide valuable insights for **buyers, investors, policymakers, an
 
 ---
 
-## Motivation  
-The Melbourne real estate market is highly dynamic and complex.  
-Identifying what drives property prices can help:  
-- 🏠 **Homebuyers** make better purchasing decisions  
-- 💼 **Investors** identify growth opportunities  
-- 🏛️ **Policymakers** understand regional affordability and trends  
-
-The aim of this project is to determine **the most significant price drivers** across suburbs and regions of Melbourne and offer **actionable insights** derived from data.
-
----
-
 ## Dataset  
 
 **Source:** [Melbourne Housing Market Dataset — Kaggle](https://www.kaggle.com/datasets/anthonypino/melbourne-housing-market)
@@ -79,13 +68,6 @@ The raw dataset required significant preprocessing to ensure accuracy and consis
 
 ---
 
-## Research Questions  
-- What property and location features most influence housing prices in Melbourne?  
-- How do market dynamics vary between suburbs and regions?  
-- Which properties or areas perform best for investment and buyer interest?  
-
----
-
 ## Analysis & Insights  
 
 ### **Insight 1 — Properties with Larger Land Size**  
@@ -129,23 +111,6 @@ Regions closer to the CBD or coastal areas consistently showed higher mean price
 
 ---
 
-## Limitations  
-
-- Dataset is limited to **Melbourne**; findings may not generalize to other markets.  
-- Some off-market or private sales are **not included**.  
-- Statistical imputations may not fully represent true missing values.  
-- External factors (e.g., economy, policy, or construction trends) are **not modeled**.  
-- Real estate markets evolve rapidly — the dataset represents a **historical snapshot**.
-
----
-
-## Conclusion  
-
-The analysis concludes that **location, land size, and property condition** are the primary determinants of housing prices in Melbourne.  
-Both **micro-level (suburb)** and **macro-level (regional)** analyses reveal market diversity, providing **practical insights** for buyers, investors, and developers seeking data-backed decision support.
-
----
-
 ## Running the Project Locally  
 
 ### 1. Clone the repository  
@@ -184,6 +149,8 @@ Start Jupyter Notebook:
 jupyter notebook
 ```
 Then open each notebook in sequence and run all cells. 
+
+---
 
 ## Project Presentation  
 
