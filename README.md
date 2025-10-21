@@ -172,7 +172,7 @@ poetry shell
 ```
 
 ### 3. Run the analysis notebooks  
-The dataset (`melbourne_housing.csv`) is already included in the `data/` directory.  
+The dataset (`Melbourne.csv`) is already included in the `data/` directory.  
 To reproduce the analysis, open and execute the Jupyter notebooks in the following order:
 
 1. `01_data_cleaning.ipynb` – performs data loading, inspection, and preprocessing  
