@@ -183,5 +183,11 @@ Start Jupyter Notebook:
 ```bash
 jupyter notebook
 ```
-Then open each notebook in sequence and run all cells.
+Then open each notebook in sequence and run all cells. 
+
+## Project Presentation  
+
+For a visual summary of the project, you can view the full presentation here:  
+[📄 Download or view the presentation (PDF)](./Melbourne_Housing_Presentation.pdf)
+
 
