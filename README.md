@@ -44,9 +44,6 @@ The project is organized into three notebooks, each representing a key step in t
 2. **Install dependencies**
    pip install -r requirements.txt
 
-3. **Launch Jupyter Notebook**
-   jupyter notebook notebooks/
-
 
 👤 Author
 
